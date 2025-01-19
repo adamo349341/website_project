@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         header {
-            background-color: #dc3545; /* Red color */
+            background-color: #dc3545; 
             color: white;
             padding: 20px 0;
             width: 100%;
@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         .success-message {
-            color: #dc3545; /* Red color */
+            color: #dc3545; 
             font-weight: bold;
             margin-bottom: 20px;
             text-align: center;
@@ -94,13 +94,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         input:focus {
-            border-color: #dc3545; /* Red color */
+            border-color: #dc3545;
             outline: none;
-            box-shadow: 0 0 5px rgba(220, 53, 69, 0.5); /* Red shadow */
+            box-shadow: 0 0 5px rgba(220, 53, 69, 0.5); 
         }
 
         button {
-            background-color: #dc3545; /* Red color */
+            background-color: #dc3545; 
             color: white;
             font-weight: bold;
             cursor: pointer;
@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         button:hover {
-            background-color: #c82333; /* Darker red */
+            background-color: #c82333; 
         }
 
         .navigation {
@@ -120,11 +120,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         .navigation a button {
             width: 100%;
-            background-color: #dc3545; /* Red color */
+            background-color: #dc3545;
         }
 
         .navigation a button:hover {
-            background-color: #c82333; /* Darker red */
+            background-color: #c82333; 
         }
 
         footer {
