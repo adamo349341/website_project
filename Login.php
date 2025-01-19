@@ -88,7 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - Réservation</title>
     <style>
-        /* Background setup */
+        
         body {
             margin: 0;
             padding: 0;
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             align-items: center;
         }
 
-        /* Semi-transparent overlay */
+      
         .overlay {
             background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             height: 100%;
         }
 
-        /* Login box */
+      
         .login-container {
             background-color: rgba(255, 255, 255, 0.95);
             padding: 40px 30px;
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             text-align: center;
         }
 
-        /* Title */
+     
         .login-container h1 {
             margin-bottom: 25px;
             color: #333;
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             text-transform: uppercase;
         }
 
-        /* Labels */
+     
         .login-container label {
             display: block;
             margin-bottom: 8px;
@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-size: 14px;
         }
 
-        /* Inputs */
+        
         .login-container input {
             width: 100%;
             padding: 12px 15px;
@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             outline: none;
         }
 
-        /* Submit Button */
+        
         .login-container button {
             background-color: #5cb85c;
             color: white;
@@ -179,7 +179,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             background-color: #4cae4c;
         }
 
-        /* Error Message */
+      
         .error {
             color: #ff4d4d;
             margin-top: 10px;
@@ -187,7 +187,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             font-weight: bold;
         }
 
-        /* Footer note */
+        
         .login-container .note {
             margin-top: 20px;
             font-size: 13px;
